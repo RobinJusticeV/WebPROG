@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>jQuery Pictures</title>
+    <link rel="stylesheet" href="bildhantering.css">
+</head>
+<body>
+
+    <h1>jQuery Pictures</h1>
+
+
+    <article>
+        <h3>Part 1: MANUAL Picture Gallery</h3>
+
+        <p>Enter the picture with your mouse to change them!</p>
+        <p> <i>Leave and enter to change multiple times</i></p>
+        <img class = "pictureCSS" id = "pictureHolder" src = "/bilder/pexels_golden.jpg" alt="pictureHolder">
+
+    </article><br>
+
+
+    <article>
+        <h3>Part 2: AUTOMATIC Picture Gallery</h3>
+        <p>The pictures will change every 3 seconds!</p>
+        <img class = "pictureCSS" id = "pictureInterval" src = "/bilder/pexels_golden.jpg" alt="pictureHolder">
+
+    </article>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/bildhantering.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+article{
+    display: flex;
+}
+
+button{
+    margin: 15px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: midnightblue;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px grey;
+}
+
+button:hover{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(255, 235, 205, 0.56);
+    color: midnightblue;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px grey;
+}
+
+
+#aniSquare{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 20px;
+    margin-bottom: 40px;
+    position: fixed;
+
+    margin-top: 100px;
+}
+
+body{
+    background-color: rgba(218, 208, 208, 0.714);
+}

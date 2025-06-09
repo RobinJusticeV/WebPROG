@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "author" content="Robin Justice Akyüz">
+    <meta name= "description" content="This is myPT, a website for getting your health in check, with the help of a personail trainer that is backed up by science">
+    <meta name = "application-name" content = "Robins Hemsida">
+    <meta name = "generator" content = "Notepad++, Visual Studio Code">
+    <meta name = "keywords" content = "Science-based workouts, workout, gym, health and diet, training, weight loss, lose weight, PT, MyPT ">
+
+    <link href="index.css" rel="stylesheet">
+
+    <title>MyPT - science-based health and diet</title>    
+
+</head>
+
+
+<body>
+
+    <main>
+
+        <article id="navArt">
+
+            <nav class="navbar">     
+                <div class="logo">MyPT <small>- science-based health and diet </small></div>
+                <ul class="navul">
+                    
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#book" id="bookBtn">Book</a></li>
+                </ul>
+                </nav>
+        </article>
+        
+        <h2>Welcome to MyPT by Robin Justice Akyüz</h2>
+
+        <article>
+            
+            <picture id="pictureHolder">
+                <img id="robinImg" src="bilder/robin_pt.jpg" alt="picture of a guy flexing in the mirror">
+            </picture>
+            
+            <p id="promtText"> Tap change between trainers!</p>
+            
+            <p id="introText">This is Robin, he is a 20 year old CS major who usually goes to the gym in his spare time. He LOVES cooking and is our main dieting coach, who will exeec your expectations when it comes to cooking. His motto is, you will love food even more when your dieting like us at MyPT. Combinations of healthy but good tastig food is what he lives for</p>
+            
+            <button class="signBtn" id="randomBtn">Randomize your trainer</button>
+        </article>
+
+        <article id="services">
+            
+            <h2>Services</h2>
+
+            <div class = "flexContainer">
+                <figure>
+                        <picture>
+                            
+                            <img class="photos" src="bilder/pexels-workout-girl.jpg" alt="placeholder">
+                        </picture>
+                        <figcaption>
+                            <h4>Lose weight</h4>
+                            Do you want to know how to go down in weight? We at MyPT can actually help you. Jessica will make it 
+                            easy and fast. No tricks, no hacks or drugs. Just science!
+                        </figcaption>
+
+                            
+                </figure>
+                
+                
+                
+                <figure>
+                    <picture>
+                            
+                        <img class="photos" src="bilder/pexels-muslce.jpg" alt="placeholder">
+                    </picture>
+                        <figcaption>
+                            <h4>Gain Muscle</h4>
+                            Do you want to gain muscle, and be absolutely shredded? George is your guy! We at MyPT will give you a schedule and mealplan so you can meet your standards.
+                        </figcaption>           
+                </figure>
+                
+                
+                    
+                <figure>
+                    <picture>
+                            
+                        <img class="photos" src="bilder/pexels-diet.jpg" alt="placeholder">
+                        </picture>
+                        
+                        <figcaption>
+                            <h4>Fix my diet</h4>
+                            Do you wanna get your diet fixed, are you tired of eating lame tasting "healthy" foods. We at MyPT got you covered, with good tasting meals and sweets.
+                        </figcaption>
+
+                            
+                </figure>
+            </div>
+
+        </article>
+
+        <article id="buttonRow">
+            <button class="signBtn">Take me there!</button>
+
+            <button class="signBtn">Take me there!</button>
+
+            <button class="signBtn">Take me there!</button>
+            
+        </article>
+
+        <article id="book">
+
+            <h2>Booking</h2>
+
+            <div class="textContainer">
+            
+                <aside class="left">
+                    <h4>Get in Touch with Your Trainer</h4>
+                    <p id="readyTxt">Ready to start your fitness journey? Reach out to me with any questions or to</p> <br>
+                    <p><i>"Success begins with taking the first step!"</i></p><br>
+            
+                    <label>Contact info:</label>
+                    <address id="adress">
+                        
+                        <p>Email: justiceakyuz@gmail.com</p>
+                        <p>Phone: (+46) 70 279 31 17</p>
+                        <p>Address: Kabelverksgatan 32, 125 48, Älvsjö, Stockholm</p>
+                    </address>
+                </aside>
+        
+        
+                <aside class="right">
+                    <form>
+                        <fieldset>
+                            <legend>Booking Form</legend>
+                            <label>First Name</label><br>
+                            <input type="text" id="name" placeholder="First Name" autofocus pattern="[A-Za-zÅÄÖåäö]{2,}"><br>
+                            <label>Email</label>
+                            <input class = "nameInput" type = "email" id = "mejladress" name = "mejladress" placeholder="exempel@gmail.se" required title="Ange en giltig mejladress (t.ex exempel@gmail.se)"><br>
+                
+                            <label>Message</label>
+                            <textarea id="message" placeholder="Let me know how I can help!" required></textarea><br>
+                
+                            <article id="submitArt">
+                                <button id="submitBtn"  type="submit" >Submit</button>
+                            </article>
+                            
+                        </fieldset>
+                    </form>
+
+                </aside>
+                </div>
+            
+        </article>
+
+        <article id="about">
+
+            <h2>About</h2>
+
+            <div class="textContainer">
+            
+                <aside class="left">
+                    <h4>Get to know us!</h4><br>
+                    <p>We are a team of guys and gals who do not only call ourselves trainers, but teachers of science! We believe that <i>everybody</i> and every <i>body</i> should deserve to know how to properly train and eat. We can help you lose weight, gain muscle, and fix your diet.</p>
+                    <p>What are you waiting for? Join our team now!</p><br><br>
+                    
+                    
+                    </aside>
+        
+        
+                <aside class="right">
+                    <figure id="teamPhoto">
+                        <picture>
+                            <img src="bilder/pexels-team.jpg" alt="a picture of the MyPt team">
+                        </picture>   
+                    </figure>    
+                </aside>
+                </div>
+            
+        </article>
+
+
+        <article id="reviews">
+
+            
+            
+        </article>
+
+
+
+
+        <figure id="reviewSection">
+            <img class="star" src="bilder/star.png" alt="5 star review">
+            <figcaption>
+                See our reviews!
+            </figcaption>
+        </figure>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="myPT.js"></script>
+        </main>
+        
+        <footer> 
+            <ul>
+                <li><p id="footerTxt"> <i>Hemsidan är skriven av <a href = "https://www.instagram.com/robin.akyuz/" target="_blank">Robin Justice Akyüz</a></i></p></li>
+                <li><a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a></li>
+            </ul>
+        </footer>
+</body>
+    
+
+
+</html>

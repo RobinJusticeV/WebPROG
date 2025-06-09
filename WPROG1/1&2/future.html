@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html lang = "sv">
+	
+	<head>
+	<meta charset="utf-8">
+		<title> Min Framtid</title>
+		<link href="css/hemsida.css" type="text/css" rel="stylesheet">
+		<link href="test1.css?rnd=12345" type="text/css" rel="stylesheet">
+		<meta name = "applicaiton-name" content = "Robins Hemsida">
+		<meta name = "author" content = "Robin Justice Akyuz">
+		<meta name = "description" content = "Är du nyfiken på hur min framtid kommer se ut? Var berädd på rikedommar och framgång. Eller kanske snarare ett medelmåttligt liv">
+		<meta name = "generator" content = "Notepad++, Visual Studio Code">
+		<meta name = "keywords" content = "rikdedom, pengar, bilar, jobb, familj, hus">
+	</head>
+
+	<body>
+		<header>
+		<h1>Min Framtid</h1>
+		</header>
+		
+		<nav>
+			<ul>
+			<li><a href = "home.html">Hem </a></li>
+			<li><a href = "history.html">Gamla intressen </a></li>
+			<li><a href = "now.html">Nuvarande intressen </a></li>
+			<li><a href = "future.html"> Min Framtid </a></li>
+			</ul>
+		</nav>
+		
+		<main>
+		
+		
+			<section>
+			
+			<article>
+				<h2> Lyxig Vardag </h2>
+				<h3> Mitt framtida jobb</h3>
+				<p> Mitt yrke ska vara något jag tycker om, ens arbete är en tredje del av sitt liv då borde vi göra det skoj. Ett av dem är att jobba med ett roligt och duktigt team inom mjukvaruutveckling, kanske hos <abbr title= "Svenska Enskilda Banken"> SEB </abbr> </p>
+				<h3>Lägenhet och bilar</h3>
+				<p>I min framtid vill jag kunna bo i en fin <mark>lägenhet</mark> med min familj, köra en snygg och lyxig <mark>bil</mark>, samt kunna ge mina barn en stabil framtid. Ett steg är att laga god och hälsosamm mat till dem med, och se värdet i det.  </p>
+			
+				<table>
+					<caption>Mina framtida mål lyxigheter</caption>
+					<thead>
+						<tr>
+							<th>Kategorier</th>
+							<th>Detaljer</th>
+							<th>Planeringsår</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan = "1">Bilar</td>
+							<td>Audi eller BMW</td>
+							<td>2028</td>
+						</tr>
+						<tr>
+							<td>Bostad</td>
+							<td>Lägenhet södera stockholm </td>
+							<td>2026</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan = "2"> Summa</td>
+							<td>7 miljoner kr</td>
+						</tr>
+					</tfoot>
+				</table>
+				
+			</article>
+			
+				<article>
+				<h2>Familj och vänskap</h2>
+				<h3>Ha barn</h3>
+				<p>Jag vill skapa en fin familj med många barn som jag kan ge min erfarenhet och kärlektill. Det är något jag sätter värde på - att alla barn förtjänar uppmärksamhet och omsorg av sin familj.</p>
+				<h3>Ha stora fester</h3>
+				<pre>I min framtid ser jag mig själv med måååå-   ...ånga kompisar som man kan dela fina middagar och fester med. (Lika många vänner som jag har skrivit "å" och whitespaces)</pre>
+				</article>
+
+				<article>
+
+					<h4>Hur ser din framtid ut?</h4>
+						<form method="post" enctype="multipart/form-data" action="https://people.dsv.su.se/~pierre/i/05_ass/ip3/1/1.10/example.php">
+							<fieldset>
+								<legend>Personuppgifter</legend>
+								<label  type="text" id="first-name" placeholder="First Name">Skriv in din ditt namn</label>
+								<input class = "nameInput" type="text" id = "namn" name="namn" list="namnLista" placeholder="Ditt namn" autofocus required pattern="[A-Za-zÅÄÖåäö]{2,}"><br><br>
+
+									<datalist id = "namnLista">
+										<option value="Robin">
+										<option value="Ludvig">
+										<option value="Kent">
+										<option value="Casper">
+									</datalist>
+
+								<label for="mejladress">Skriv in din email-adress</label>
+								<input class = "nameInput" type = "email" id = "mejladress" name = "mejladress" placeholder="exempel@gmail.se" required title="Ange en giltig mejladress (t.ex exempel@gmail.se)" ><br><br>
+
+								<label for = "url"> Ange URL till din hemsida label </label>
+								<input class = "nameInput" type="url" id = "url" name="url" placeholder="https://dinhemsida.se" required title="Ange en giltig URL (t.ex https://dinhemsida.se)" ><br><br>
+
+								</fieldset>
+
+							<fieldset>
+								<legend>Preferens och bil</legend>
+
+								<label for="svar">Checka in om du vill ha svar</label>
+								<input type = "checkbox" id ="svar" name = "svar"><br><br>
+
+								<label>Vill du ha en kopia?</label>
+								<input type="radio" id = "ja" name = "kopia" value="ja">
+								<label for="ja">Ja</label>
+								<input type="radio" id = "nej" name = "kopia" value="nej">
+								<label for="nej">Nej</label><br>
+
+								<label for="kommentar">Skriv en text till mig</label>
+								<textarea id = "kommentar" name = "kommentar">Skriv en kommentar...
+
+								</textarea><br><br>
+
+								<label for = "bilar">Välj bilmodell</label>
+								<select id = "bilar" name = "Bilar">
+
+									
+									<option value = "Bugatti">Bugatti</option>
+									<option value = "Ferrari">Ferrari</option>
+									<option value = "Porche">Porche</option>
+									<option value = "McLaren">McLaren</option>
+									<option value = "Audi R8">Audi R8</option>
+								</select>
+							</fieldset>
+							<fieldset>
+								<legend>Ladda upp och skicka svar</legend>
+
+								<label for="filUp">Ladda upp en fil</label>
+								<input type = "file" id = "filUp" name = "fil" title="Ladda upp en fil"><br><br>
+
+								<label for="filNed">Skicka filen</label>
+								<input type = "submit" id="filNed" value = "Skicka!"><br>
+							</fieldset>
+						</form>
+				</article>
+				
+			</section>
+			
+
+
+			
+			
+		
+		</main>
+		
+	
+	<footer>
+		<p> <i>Hemsidan är skriven av <a href = "https://www.instagram.com/robin.akyuz/">Robin Justice Akyüz</a></i></p>
+	</footer>
+	
+	</body>
+	
+	
+	
+</html>

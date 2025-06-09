@@ -1,0 +1,31 @@
+body{
+    background-color: azure;}
+
+p{
+    font-size: large;
+
+}
+
+
+button{
+    background-color: rgba(240, 128, 128, 0.805);
+    box-shadow: 2px 4px grey;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px black solid;
+    border-radius: 2px;
+    
+}
+button:hover{
+    background-color: rgba(240, 128, 128, 0.596);
+    box-shadow: 2px 4px rgba(128, 128, 128, 0.812);
+    
+}
+
+button:active{
+    background-color: rgba(240, 128, 128, 0.729);
+    
+}
+input{
+    margin-bottom: 15px;
+}

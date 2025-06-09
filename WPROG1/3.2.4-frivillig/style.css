@@ -1,0 +1,71 @@
+body{
+    background-color: azure;
+}
+
+
+.tab{
+    overflow: hidden;
+    margin-right: 750px;
+    
+    border: black 2px solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;    
+    
+    
+}
+
+.tabcontent{
+    display: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 750px;
+    border: 2px black solid;
+    
+
+}
+
+
+#panelOne{
+    background-color: red;
+
+}
+
+#panelTwo{
+    background-color: yellow;
+
+}
+
+#panelThree{
+    background-color: green;
+
+}
+
+.tablinks{
+    padding: 60px;
+    border: 3px solid black;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    color: lightblue;
+}
+
+
+#btnOne{
+
+    background-color: red;
+    
+}
+
+#btnTwo{
+
+    background-color: yellow;
+    
+}
+
+#btnThree{
+    background-color: green;
+}
+

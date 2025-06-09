@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Emergency Codes with Robin</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        
+
+    </head>
+
+    <body>
+
+        <h2>Emergency Codes with Robin</h2>
+        <p>Click on the tab bellow to reveal a panel</p>
+        
+        
+        <article>
+
+
+        
+            <article class="tab">
+                <button id="btnOne" class="tablinks" onclick="openPanel(event, 'panelOne')">Code Red</button>
+                <button id="btnTwo" class="tablinks" onclick="openPanel(event, 'panelTwo')">Code Yellow</button>
+                <button id="btnThree" class="tablinks" onclick="openPanel(event, 'panelThree')">Code Green</button>
+            </article>
+            
+            <article id="panelOne" class="tabcontent">
+                <h3>Code RED: Zombies!</h3>
+                <p>There's been a zombie apocalypse, gather shelter and hide from the flesh-eating monsters.</p>
+            </article>
+            
+            <article id="panelTwo" class="tabcontent">
+                <h3>Code Yellow: Tsunami!</h3>
+                <p>There's been an overflow in your city, gather shelter and wait it out. It's too late to evacuate.</p>
+            </article>
+            
+            <article id="panelThree" class="tabcontent">
+                <h3>Code Green: Paradise!</h3>
+                <p>Howdy partner, life is all about sunshine and rainbows. Enjoy your freedom!</p>
+            </article>
+
+        </article>
+        
+        
+        <script src="script.js"></script>
+    </body>
+
+    <footer>
+
+
+    </footer>
+
+</html>

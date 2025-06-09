@@ -1,0 +1,454 @@
+*{
+  
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+  background-color: #F1FAEE;
+  color: #1D3557;
+}
+body {
+  font-size: large;
+  
+  
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+img{
+  border-radius: 22px;
+  border: #1D3557 2px solid;
+  width: 100%;
+  padding: 10px;
+  background-color: #A8DADC;
+}
+
+#pictureHolder{
+  width: 60%;
+  height: 750px;
+  
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+#pictureHolder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#introText{
+  text-align: left;
+  width: 70%;
+  padding-left: 10em;
+
+}
+
+
+#promtText{
+  margin-top: 40px;
+}
+
+#robinArt{
+  margin-top: 200px;
+}
+
+
+
+.photos{
+  cursor: pointer;
+  
+}
+
+.photos:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#teamPhoto {
+  max-width: 75%;
+  margin: 0 auto; 
+}
+
+#teamPhoto img {
+  width: 100%; 
+  height: auto;
+  margin-bottom: 40px;
+}
+
+
+.flexContainer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; 
+  gap: 30px;
+  color: #1D3557;
+}
+
+.flexContainer figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.flexContainer h4 {
+  text-align: center;
+  font-size: medium;
+}
+
+.flexContainer img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  max-width: 350px;
+
+}
+
+.flexContainer figcaption {
+  margin-top: 5px; 
+  margin-bottom: 10px;
+  font-size: small;
+  text-align: left; 
+  flex-shrink: 0;
+  color: #1D3557;
+}
+
+
+h2{
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #457B9D;
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  box-shadow: 3px 3px 5px black;
+  top: 0;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+
+
+.navul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  
+}
+
+.navul a {
+  padding: 0 30px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  
+}
+
+.navul a:hover {
+  color: #A8DADC;
+}
+
+
+#bookBtn {
+  background-color: #E63946;
+  border-radius: 22px;
+  border: 3px black solid;
+ 
+  padding: 12px 20px;
+  margin-right: 20px;
+  margin-left: 15px;
+
+}
+
+#bookBtn:hover {
+  background-color: #e63947c4;
+  color: white;
+  
+}
+
+#bookBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+article{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+h1{
+  font-size: xx-large;
+  margin:80px;
+}
+
+#readyTxt{
+
+  margin-bottom: -20px;
+  margin-top: 20px;
+}
+
+#buttonRow{
+  display: flex;
+  justify-content: space-around;
+}
+
+.signBtn{
+  background-color: #457B9D;
+  border: 2px solid #1D3557;
+  border-radius: 22px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  border: 3px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 grey;
+ 
+}
+
+.signBtn:hover {
+  background-color: #E63946;
+  box-shadow: 2px 2px black;
+}
+
+#submitArt{
+  padding: 50px;
+}
+
+#submitBtn{
+  background-color: #457B9D;
+  border: 2px solid #1D3557;
+  border-radius: 22px;
+  padding: 15px 27px 15px 27px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 grey;
+  
+
+}
+
+#submitBtn:hover {
+  color: #F1FAEE;
+  box-shadow: 2px 2px grey;
+  background-color: #E63946;
+}
+
+
+
+.textContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+#reviewSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#reviewSection img.star {
+  width: 200px;
+  margin-bottom: -30px;
+  border: 0px;
+  background-color: #F1FAEE;
+}
+
+
+.left{
+  text-align: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.right{
+  text-align: left;
+  width: 50%;
+}
+
+fieldset{
+  padding-bottom: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+label{
+  margin-right: 300px;
+}
+
+
+#adress{
+  font-size: smaller;
+}
+
+form {
+  
+ 
+ 
+  
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+input, textarea {
+  margin-bottom: 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px; 
+  border: 1px solid #ccc;
+  resize: none;
+  
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  
+}
+input:hover, textarea:hover {
+
+  outline: none;
+  border-color: rgb(130, 227, 227);
+}
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A8DADC; 
+  padding-top: 300px;
+  margin-top: 20px;
+  background-color: #457B9D;
+}
+
+#footerTxt{
+  padding-bottom: 30px;
+  background-color: #457B9D; 
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #457B9D;
+    padding: 15px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+  }
+
+  #pictureHolder {
+    width: 60%;
+    height: 750px;
+  }
+  
+  #introText {
+    width: 70%;
+    text-align: left;
+    padding-left: 10em;
+  }
+
+  .flexContainer {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      font-size: medium;
+  }
+
+  .navbar {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  #pictureHolder {
+      width: 80%;
+      height: 500px;
+  }
+
+  #introText {
+    width: 85%;
+    padding-left: 2em;
+  }
+
+  .flexContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  body {
+    font-size: small;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  #pictureHolder {
+    width: 90%;
+    height: auto;
+  }
+
+  #introText {
+    width: 90%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .flexContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flexContainer img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+

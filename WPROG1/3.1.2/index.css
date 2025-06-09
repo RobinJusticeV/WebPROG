@@ -1,0 +1,20 @@
+body {
+    background-color: lightgrey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color: #214a54;
+    color: white;
+    padding: 10px 20px;
+    border: solid black 2px;
+    cursor: pointer;
+    box-shadow: purple 2px 2px 2px;
+    margin: 0px 5px;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: purple;
+}
